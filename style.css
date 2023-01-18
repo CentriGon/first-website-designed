@@ -37,6 +37,7 @@ p {
     padding-left: 100px;
     padding-right: 100px;
     justify-content: space-between;
+    margin-bottom: 100px;
 }
 
 .imgleftext {
@@ -71,4 +72,71 @@ h2 {
     font-size: 48px;
     margin-bottom: -10px;
     margin-top: -5px;
+}
+
+.whitespace {
+    height: 1500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.infoboxes {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding-left: 100px;
+ padding-right: 100px;
+
+
+}
+
+.whitespace2 {
+    flex:auto;
+}
+
+.grayspace {
+    flex:auto;
+    background-color:rgb(163, 163, 163) ;
+}
+
+.infobox img {
+    width: 200px;
+    height: 200px;
+    margin-left: 0px;
+}
+
+.infobox p {
+    color: black;
+    margin-top: 2px;
+}
+
+.infobox {
+    flex:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 200px;
+    height: 280px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.whitespace1 {
+    flex-direction: column;
+    flex:auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 150px;
+    padding-right: 150px;
+    
+}
+
+.whitespace1 h2 {
+    color: black;
+    margin: -50px;
+    font-family:'Times New Roman', Times, serif;
+   
 }
